@@ -8,7 +8,11 @@
    Author's custom styles
    ========================================================================== */
 
-
+.n-akat{
+   background: url(../img/Akatsuki.jpg);
+   height: 350px;
+   background-size: cover;
+}
 
 
 
