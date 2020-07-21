@@ -1,4 +1,8 @@
-
+.bg-kush{
+   background: url(../img/uzumaki.jpg);
+   height: 350px;
+   background-size: cover;
+}
 
 /* ==========================================================================
    Author's custom styles
