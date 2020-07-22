@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF -8">
-    <meta name="description" content="This is an awesome website">
+    <meta charset="UTF-8">
 <meta name="author" content="Hadi" />
-<meta name="Keywords" content="HTML, TUTOR "/>
 <meta name="viewport" content="width=device-width , initial-scale=1.0"/>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -13,29 +11,50 @@
 <link rel="stylesheet" href="css/main.css">
 <title>Hadi's Website</title>
  </head>
- <header class="col-xs-12 bg-info"> <h1 class="text-center">THE KID WHO CHASED HIS DREAMS</h1> </header>
- 
- 
- <body style="background-color: lightskyblue;">
+ <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" class="navbar fixed-bottom navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">NARUTO</a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+</nav>
+<header class="col-xs-12 bg-danger"> <h1 class="text-center"><i> THE KID WHO CHASED HIS DREAMS </i></h1> </header>
  
 <div class="container">
   <div class="row">
+    
 
 <div class="col-xs-4 col-xs-push-8 bg-kush">
   
 </div>
-<div class="col-xs-8 col-xs-pull-4 bg-info">
+<div class="col-xs-8 col-xs-pull-4 ">
   <h1>NARUTO UZUMAKI </h1>
-  <p><b><h3>It is the story of the kid whose parents died at the time of his birth 
+  <p><h3>It is the story of the kid whose parents died at the time of his birth 
     He was raised by the head of the village and was hated by everyone else because of the demon inside of him.The same demon who killed his parents
     he was lonely and tried to get the attention of others by teasing others or by painting the sculptures
     when he got into school he was assigned in a team of three and their teacher was one of the greatest teacher of the all 
-    He gets to made friends with his teammates.His only goal was to make everyone acknowledge him by being the head of the village</b></h3>
+    He gets to made friends with his teammates.His only goal was to make everyone acknowledge him by being the head of the village</h3>
   </p>
 </div>
-<div class="col-xs-12  bg-info">
-  <p>
-    <b> he was making progress in his training,his close friend <b>Sasuke Uchiha</b> betrayed the vilaage and joined the enemy to avenge his own village which was slaughtered by his
+<div class="col-xs-12 ">
+  <p><h3>
+    he was making progress in his training,his close friend <b>Sasuke Uchiha</b> betrayed the vilaage and joined the enemy to avenge his own village which was slaughtered by his
     own big brother named <b>Itachi Uchiha</b> a guy who was known as the master of genjutsu(Illusions) he was known among all the main 5 villages 
     <ol>
       <li>Sand Village</li>
@@ -46,14 +65,15 @@
     </ol>
     so he went away with orochimaro one of the legendary sanin,to train and become strong tokill his own brothe to restore his clan.
     However on the other hand naruto started his training to under the arms of <b>Jiraya Sensei</b> another legendary sanin who was also known
-    as the GODFATHER of Naruto,he trained o he can pull his friend back from the dark.
+    as the GODFATHER of Naruto,he trained o he can pull his friend back from the dark.</h3>
   </p>
 </div>
-  <div class="col-xs-12 bg-info">
-<p>
+  <div class="col-xs-12">
+<p><h3>
   As the years passed away they both became strong and were ready to achieve their goals.Sasuke decided to kill his sensei(orochimaro) because he was
-  sick and was trying to get the body of sasuke to live a little longer but sasuke kiled him and went to take the revenge of his clan 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/g_ysz6pKCnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  sick and was trying to get the body of sasuke to live a little longer but sasuke kiled him and went to take the revenge of his clan </h3></p>
+  <p> 
+    <video class="video-center" src="battle.mp4" controls width="500"></video>
 </p>
 </div>
 </div>
@@ -65,18 +85,24 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<div class="col-xs-12 bg-info">
+<div class="col-xs-12 ">
 <blockquote>
 
-  <p> "I never giveup thats my nindo my ninja way"</p>
-  <footer><b><i> UZUMAKI</b></i></footer>
+  <p class="text-center"> "I never giveup in my word thats my nindo my ninja way"</p>
+  <footer class="text-center"><b><i> UZUMAKI</b></i></footer>
 </blockquote> 
+</div>
+<div class="row">
+  <footer class="col-sm-12">
+    <p class="text-center"> @copy: copyright 2020</p>
+  </footer>
 </div>
 
 
 <div> 
-<a href="page2.html"> <u>Page2</u> </a>
+<a class="btn btn-default" class="text-right" href="page2.html"> Next </a>
 </div>
+
  
 
 
